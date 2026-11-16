@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+     font-family: "Libre Caslon Condensed", serif;
+     margin:0;
+     padding: 0;
+     min-height: 100vh; /*Altura minima da pagina - vh - tamanho responsividade*/
+     box-sizing: border-box;/*caixa para formulario*/
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+h1{
+
+padding-top: 50px;
+margin:0;
+text-align:center ;
+color: black;
+font-size: 100px;
+
+
+}
+h2{
+padding-bottom: 50px;
+margin:0;
+text-align: center;
+color:rgb(97, 97, 89);
+font-size: 20px;
+}
+.campo{
+    display:flex;/* flexivel-ajusta*/
+    flex-direction:column; /* coluna*/
+
+
+
+}
+.formulario{
+background-color: rgb(240, 241, 241);
+border: 1px solid rgb(85, 79, 79);
+padding: 50px 100px;
+border-radius: 35px;
+color: black;
+flex-direction: column;
+max-width: 600px;
+}
+.botao{
+padding-top: 50px;
+display: flex;
+justify-content: center;
+
+}
+.button{
+    background-color:black ;
+background-color: rgb(18, 127, 223);
+border:none;
+padding:20px 30px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 15px;
+
+
+}
+input{
+padding:10px 10px;
+border-radius: 10px;
+border:1px solid black;
+
+}
+select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.imagem{
+    margin:10px;
+    border: none; 
+cursor:pointer;
+ 
+
+}
+#imagem::file-selector-button{
+margin-right:10px;
+padding:5px 20px;
+border-radius: 10px;
+cursor:pointer ;
+background-color: aqua;
+
+
+
+
+
+}
+
+
+
+button:hover{
+transition: background-color 0.4s ease,color 0.4s ease,border 0.3s ease;
+background-color: rgb(10, 32, 231);
+color: black;
+border:1px solid black
+
+}
+
+ 
+
+
